@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <script>
-  window.onload = function() {
-	if(!window.location.hash) {
-		window.location = window.location + '#loaded';
-		window.location.reload();
-	}
-}
+  $(document).ready(function(){    
+    //Check if the current URL contains '#'
+    if(document.URL.indexOf("#")==-1){
+        // Set the URL to whatever it was plus "#".
+        url = document.URL+"#";
+        location = "#";
+
+        //Reload the page
+        location.reload(true);
+    }
+});
+
 </script>
 <head>
   <meta charset="utf-8" />
@@ -135,7 +141,8 @@
         <div class="row">
           <div class="isotope-wrapper">
             <form class="isotope-toolbar">
-              
+              <label><input type="radio" data-type="*" checked="" name="isotope-filter" />
+                <span>Tous</span></label>
               <label><input type="radio" data-type="web" name="isotope-filter" />
                 <span>Web</span></label>
               <label><input type="radio" data-type="lourd" name="isotope-filter" />

@@ -1,0 +1,137 @@
+
+
+span[class*="zocial-"]:before {
+font-family: 'Zocial', sans-serif;
+}
+
+
+a {
+text-decoration: none;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+
+.row-cont, .col12 {
+width: 1170px;
+margin: 0 auto;
+}
+.clear {
+clear: both;
+}
+.col6 {
+width: 570px;
+}
+.first {
+margin-left: 0;
+}
+.col6, .col7, .col8, .col9, .col10, .col11, .col12 {
+float: left;
+margin-left: 30px;
+}
+
+
+.contact-h2 {
+margin-top: 12px;
+padding: 12px 0 12px 0;
+font-size: 1.375em;
+line-height: 150%;
+position: relative;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+-webkit-font-smoothing: antialiased;
+
+}
+
+.contact-social {
+color: #333333;
+width: auto;
+float: left;
+padding-top: 8px;
+text-decoration: none;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+.contact-social-img {
+display: block;
+float: left;
+background-color: #e64405;
+width: 48px;
+height: 48px;
+margin-right: 24px;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+text-align:center;
+display: inline-block;
+line-height: 2;
+color: #fff;
+}
+
+.contact-twitter {
+background: #45b0e3;
+}
+a.h2-twitter:hover {
+background-color: #45b0e3;
+}
+
+.contact-face {
+background: #39599f;
+}
+a.h2-face:hover {
+background-color: #39599f;
+}
+
+
+.contact-mail {
+background: #e64405;
+}
+a.h2-mail:hover {
+background-color: #e64405;
+}
+
+.contact-skype {
+background: #00c6ff;
+}
+a.h2-skype:hover {
+background-color: #00c6ff;
+}
+
+.skype-to-go {
+margin-left: -50px;
+position: relative;
+float: left;
+margin-top: 40px;
+z-index: 50000;
+}
+
+
+a.contact-h2:hover .contact-social-img {
+margin-right: 12px;
+margin-left: 24px;
+}
+a
+{ 
+ text-decoration:none; 
+ color: black;
+} 
+a.hover{
+    color: black;
+}

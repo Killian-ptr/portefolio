@@ -19,6 +19,27 @@
   <link rel="stylesheet" href="assets/css/owl.css" />
   <link rel="stylesheet" href="assets/css/lightbox.css" />
   <link rel="stylesheet" href="assets/css/card.css" />
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/lightbox.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script>
+    $(document).ready(function(){    
+      //Check if the current URL contains '#'
+      if(document.URL.indexOf("#")==-1){
+          // Set the URL to whatever it was plus "#".
+          url = document.URL+"#";
+          location = "#";
+  
+          //Reload the page
+          location.reload(true);
+      }
+  });
+  
+  </script>
 </head>
 
 <body>
@@ -249,27 +270,8 @@
   </div>
 
 
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/lightbox.js"></script>
-  <script src="assets/js/custom.js"></script>
-  <script>
-    $(document).ready(function(){    
-      //Check if the current URL contains '#'
-      if(document.URL.indexOf("#")==-1){
-          // Set the URL to whatever it was plus "#".
-          url = document.URL+"#";
-          location = "#";
   
-          //Reload the page
-          location.reload(true);
-      }
-  });
-  
-  </script>
+ 
   <script>
 
     $(".main-menu li:first").addClass("active");

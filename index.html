@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<script>
-  $(document).ready(function(){    
-    //Check if the current URL contains '#'
-    if(document.URL.indexOf("#")==-1){
-        // Set the URL to whatever it was plus "#".
-        url = document.URL+"#";
-        location = "#";
 
-        //Reload the page
-        location.reload(true);
-    }
-});
-
-</script>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -269,6 +256,20 @@
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/lightbox.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script>
+    $(document).ready(function(){    
+      //Check if the current URL contains '#'
+      if(document.URL.indexOf("#")==-1){
+          // Set the URL to whatever it was plus "#".
+          url = document.URL+"#";
+          location = "#";
+  
+          //Reload the page
+          location.reload(true);
+      }
+  });
+  
+  </script>
   <script>
 
     $(".main-menu li:first").addClass("active");

@@ -137,8 +137,8 @@ html {
 }
 
 .menu .image img {
-    width: auto;
-    height: auto;
+    width: 180px;
+    height: 200px;
     border-radius: 50%;
     text-align: center;
 }
